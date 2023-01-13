@@ -1,2 +1,7 @@
-package com.uday101.thoughts.models;public class User {
+package com.uday101.thoughts.models;
+
+import java.io.Serializable;
+
+public class User implements Serializable {
+    public String name, image, email, token, id;
 }
